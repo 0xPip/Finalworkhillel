@@ -7,7 +7,9 @@ authors = [
     { name = "Artem", email = "artemandpol@gfmail.com" }
 ]
 requires-python = ">=3.14"
-dependencies = []
+dependencies = [
+    "fastapi[all]>=0.156.0",
+]
 
 [project.scripts]
 hillelfinalproject = "hillelfinalproject:main"
